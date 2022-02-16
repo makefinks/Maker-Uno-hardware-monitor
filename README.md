@@ -19,11 +19,11 @@ After receiving a Maker Uno from one of my Professors I wanted to experiment and
 ### Gathering Information:
 I wrote a Python script using WMI ([Windows Management Instrumentation](http://openhardwaremonitor.org/wordpress/wp-content/uploads/2011/04/OpenHardwareMonitor-WMI.pdf)) to get information from OpenHardwareMonitor an open-source software that monitors information about hardware components.
 
-To send information to the microcontroller, via the serial ports of my computer, I used [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html)
+To send information to the microcontroller, via the serial ports of my computer, I used [pySerial](https://pyserial.readthedocs.io/en/latest/pyserial.html).
 
 ### Displaying Information:
 To display information on the Screen I first had to learn about the Elegoo GFX Library (based on [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library))
-Using the provided Library and the information sent to serial ports of the Maker UNO I was able to come up with a design and display the gathered data accordingly.
+Using the provided Library and the information sent to the serial ports of the Maker UNO I was able to come up with a design and display the gathered data accordingly.
 
 
 
