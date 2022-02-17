@@ -12,7 +12,7 @@ After receiving a Maker Uno from one of my Professors I wanted to experiment and
 - [OpenHardwareMonitor](https://openhardwaremonitor.org/)
 #### Languages:
 - Python
-- Arduino
+- Arduino (C++)
 
 ## How it works
 
@@ -32,7 +32,7 @@ Using the provided Library and the information sent to the serial ports of the M
 
 Depending on the usage of CPU, GPU, and RAM the color used to fill the boxes will change from blue (0-30%) to orange (30-70%) and eventually to red (70-100%).
 The thin bars next to CPU and GPU show the current fan speed of the component and coloring is used as mentioned above.
-Currently, the power draw is calculated only by how much the CPU and GPU other components are *not* included.
+Currently, the power draw is calculated only by how much the CPU and GPU draw other components are *not* included.
 
 ## TODO
 - All arguments regarding the position of elements are absolute and not relative to the size of the display. This has to be changed.
